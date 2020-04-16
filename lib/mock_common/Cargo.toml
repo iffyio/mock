@@ -1,0 +1,6 @@
+[package]
+name = "mock_common"
+version = "0.1.0"
+authors = ["iffyio <ifeanyi.co>"]
+edition = "2018"
+

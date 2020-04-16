@@ -1,0 +1,5 @@
+[workspace]
+members = [
+  "lib/mock_common",
+  "lib/mock_derive"
+]

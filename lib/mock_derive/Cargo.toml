@@ -1,0 +1,18 @@
+[package]
+name = "mock_derive"
+version = "0.1.0"
+authors = ["iffyio <ifeanyi.co>"]
+edition = "2018"
+
+[dependencies]
+quote = "1.0.3"
+proc-macro2 = "1.0.10"
+mock_common = { path = "../mock_common"}
+
+[dependencies.syn]
+version = "1.0.17"
+default-features = true
+features = ["full",  "extra-traits"]
+
+[lib]
+proc-macro = true
